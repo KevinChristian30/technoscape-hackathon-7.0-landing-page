@@ -48,8 +48,8 @@ const WhyUs = () => {
                     Scalable Solutions
                   </h3>
                   <p className="mt-1 text-muted-foreground">
-                    Whether you're a small startup or a large enterprise, our AI
-                    scales with your business needs, adapting to your growth.
+                    { `Whether you're a small startup or a large enterprise, our AI
+                    scales with your business needs, adapting to your growth.` }
                   </p>
                 </div>
               </div>

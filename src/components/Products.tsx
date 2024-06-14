@@ -1,5 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
-import { Bot, Mail, MessageCircle, PaletteIcon, Phone, PresentationIcon, StoreIcon } from "lucide-react";
+import {
+  Bot,
+  Mail,
+  MessageCircle,
+  PaletteIcon,
+  Phone,
+  PresentationIcon,
+  StoreIcon,
+} from "lucide-react";
 
 const Products = () => {
   return (
@@ -22,9 +30,7 @@ const Products = () => {
               </div>
               <CardTitle>Email Helpdesk</CardTitle>
             </CardHeader>
-            <CardContent>
-              Easily manage and reply to emails.
-            </CardContent>
+            <CardContent>Easily manage and reply to emails.</CardContent>
           </Card>
 
           <Card>
@@ -47,7 +53,7 @@ const Products = () => {
               <CardTitle>Chat Helpdesk</CardTitle>
             </CardHeader>
             <CardContent>
-              AI recommended replies to customer's messages.
+              {`AI recommended replies to customer's messages.`}
             </CardContent>
           </Card>
 
@@ -59,7 +65,7 @@ const Products = () => {
               <CardTitle>Call Helpdesk</CardTitle>
             </CardHeader>
             <CardContent>
-              AI recommended answers to customer's queries.
+              {`AI recommended answers to customer's queries.`}
             </CardContent>
           </Card>
         </div>
